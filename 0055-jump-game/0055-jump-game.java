@@ -5,9 +5,7 @@ class Solution {
             if(i > max){
                 return false;
             }
-            else{
                 max = Math.max(max, nums[i] + i);
-            }
         }
         return true;
     }
